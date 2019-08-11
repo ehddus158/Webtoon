@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>#3_mysql연결하기</h1>
+    <div>
+        <p>성공해라제발!</p>
+        <p>--------------</p>
+        {% for i in data %}
+            <p>이름:{{i[0]}}</p>
+            <p>회사:{{i[1]}}</p>
+            <p>장르:{{i[2]}}</p>
+            <p>제목:{{i[3]}}</p>
+            <p>추천수:{{i[4]}}</p>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
